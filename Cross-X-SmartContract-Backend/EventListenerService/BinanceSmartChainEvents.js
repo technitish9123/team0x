@@ -18,6 +18,25 @@ dotenv.config();
     bridge.abi,
     BRIDGE_RINKBEY
   );
+ // BINANCE PROVIDER && BSC_BRIDGE CONTRACT INIT FOR EVENTS
+  
+ const web3Binance = web3BinanceProvider();
+  
+ const BNBBridgeInstance = new web3Binance.eth.Contract(
+   bridge.abi,
+   BRIDGE_BSC_TESTNET
+ );
+
+  // POYLYGON PROVIDER && POLY_BRIDGE CONTRACT INIT
+  const web3POLY = web3POLYProviderHTTP();
+
+  const { address: adminPOLY } = web3POLY.eth.accounts.wallet.add(adminPrivKey);
+
+  const POLYBridgeInstance = new web3POLY.eth.Contract(
+    bridge.abi,
+    BRIDGE_POLY_TESTNET
+  );
+
 
  
   BNBBridgeInstance.events.DEPOSIT({ fromBlock: 'latest'}).on('data',async  event => {

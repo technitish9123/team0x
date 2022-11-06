@@ -6,12 +6,9 @@
   "scripts": {
     "run:service": "nodemon app.js --exec node_modules/.bin/babel-node index.js"
   },
-  "author": "Md Mohsin Siddiqui",
+  "author": "Nitish",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mohsinsiddi/Cross-X-SmartContract-Backend/issues"
-  },
-  "homepage": "https://github.com/Mohsinsiddi/Cross-X-SmartContract-Backend#readme",
+  
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",
     "@nomiclabs/hardhat-etherscan": "^3.0.3",

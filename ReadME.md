@@ -152,6 +152,30 @@ Start frontend server
 
 [PPT Documentation]https://docs.google.com/presentation/d/10w_FK_ibP_kG7cdNITtwzDAertTNC2EUOl0QYC1y7nw/edit?usp=sharing)
 
+##### **_Note:_**
+
+```bash
+faunadb Schema (table: lazy_mint_nft_signatures):
+{
+  "ref": Ref(Collection("lazy_mint_nft_signatures"), "347478478131561036"),
+  "ts": 1667640150100000,
+  "data": {
+    "metadata": {
+      "tokenId": 4,
+      "uri": "https://infura-ipfs.io/ipfs/QmPhH6nCS9K4GjAsJPQo5FQo4wiw43ygWRid3yMev743J5",
+      "minPrice": "100000000000000",
+      "name": "nk",
+      "description": "nk",
+      "signature": "0xc3123d1cd376d7008ec93d8ef684d33156cf39791edb3c33db6c03798cd8b5ba2b54fe90e80429e718d6ce431e4819e0996439454330555850cb14c60d2505d11b",
+      "owner": "0x10fd6725ca9597945f9310ac794d109c4d4f6032",
+      "chainId": "97",
+      "image": "https://infura-ipfs.io/ipfs/QmcmhdGBvcriZSvN7BY3yHKXjeJ3KXJU1BFGC5Rp5nV8Ni",
+      "collection": "nk"
+    }
+  }
+}
+```
+
 ## Future Aspects
 
 - Improvising the system design to integerate huge data sets of users and products.

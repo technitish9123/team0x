@@ -12,7 +12,7 @@
 
 ## Demo video link
 
-🟡[Demo Video Link (GoogleDrive)]()
+🟡[Demo Video Link ](https://clipchamp.com/watch/SKlVk2nE6gW)
 
 ## Documentation
 

@@ -5,7 +5,9 @@
 /.pnp
 .pnp.js
 
-
+Multichain-NFT-Aggregator/node_modules
+Multichain-NFT-Aggregator/vercel
+Multichain-NFT-Aggregator/.next
 # testing
 /coverage
 

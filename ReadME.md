@@ -22,7 +22,7 @@
 
 |                                      Dashboard                                      |                                               Create NFT                                                |
 | :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-| <img src="https://i.postimg.cc/8CMHVH88/Screenshot-130.png" alt="dash" border="0" > | <img src="https://i.postimg.cc/KzcgsrxD/Screenshot-131.png" alt="create-nft-page" border="0" width=500> |
+| <img src="https://i.postimg.cc/8CMHVH88/Screenshot-130.png" alt="dash" border="0" width=500 > | <img src="https://i.postimg.cc/KzcgsrxD/Screenshot-131.png" alt="create-nft-page" border="0" width=500> |
 
 |                                            Lazy-Marketplace                                             |                                           NFT-marketplace                                           |
 | :-----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
